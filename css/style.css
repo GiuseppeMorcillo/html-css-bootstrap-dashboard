@@ -2,7 +2,7 @@
     width: 60px;
 }
 .navbar-nav .nav-link {
-    color: lightgray;
+    color: rgba(211, 211, 211, 0.616);
 }
 .navbar-nav .nav-link.active {
     color: white;
