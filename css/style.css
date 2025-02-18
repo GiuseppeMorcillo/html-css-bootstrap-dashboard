@@ -1,0 +1,9 @@
+.logo {
+    width: 60px;
+}
+.navbar-nav .nav-link {
+    color: lightgray;
+}
+.navbar-nav .nav-link.active {
+    color: white;
+}
