@@ -53,19 +53,39 @@
                 <div class="col col-6">
                     <label for="nomeAutore" class="col-form-label">Nome autore</label>
                     <input type="text" id="nomeAutore" class="form-control" aria-describedby="nome autore"
-                        value="Inserisci il nome dell'autore">
+                        placeholder="Inserisci il nome dell'autore">
                 </div>
                 <div class="col col-6">
                     <label for="cognomeAutore" class="col-form-label">Cognome autore</label>
                     <input type="text" id="cognomeAutore" class="form-control" aria-describedby="cognome autore"
-                        value="Inserisci il cognome dell'autore">
+                        placeholder="Inserisci il cognome dell'autore">
                 </div>
                 <div class="col col-12">
                     <label for="titoloLibro" class="col-form-label">Titolo</label>
                     <input type="text" id="titoloLibro" class="form-control" aria-describedby="titolo libro"
-                        value="Inserisci il titolo del libro">
+                        placeholder="Inserisci il titolo del libro">
+                    <p class="lead fs-6 mb-0">Titolo versione italiana</p>
                 </div>
-                <div class="col col-12">4</div>
+                <div class="col col-12 col-lg-4">
+                    <label for="genere" class="col-form-label">Genere</label>
+                    <select class="form-select" aria-label="genere">
+                        <option selected>Scegliere il genere</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <p class="lead fs-6 mb-0 d-lg-none">Titolo versione italiana</p>
+                </div>
+                <div class="col col-12 col-lg-4">
+                    <label for="annoPubblicazione" class="col-form-label">Anno di Pubblicazione</label>
+                    <input type="date" id="annoPubblicazione" class="form-control"
+                        aria-describedby="anno di pubblcazione libro" placeholder="Inserisci l'anno">
+                </div>
+                <div class="col col-12 col-lg-4">
+                    <label for="isbn" class="col-form-label">ISBN#</label>
+                    <input type="text" id="annoPubblicazione" class="form-control"
+                        aria-describedby="codice isbn" placeholder="Inserisci il codice ISBN#" maxlength="12">
+                </div>
             </form>
         </div>
     </main>
